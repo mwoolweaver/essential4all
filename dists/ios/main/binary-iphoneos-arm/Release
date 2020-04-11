@@ -1,0 +1,7 @@
+Archive: stable
+Version: 1.0
+Component: main
+Origin: essential
+Label: essential
+Architecture: iphoneos-arm
+Description: essential

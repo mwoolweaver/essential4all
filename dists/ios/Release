@@ -1,0 +1,21 @@
+Origin: essential
+Label: essential
+Suite: stable
+Codename: ios
+Version: 1.0
+Date: Sat, 11 Apr 2020 21:21:02 UTC
+Architectures: iphoneos-arm
+Components: main
+Description: essential
+MD5Sum:
+ 75c385af3d9ec0c66fc8c93aca8010ce 1498 main/binary-iphoneos-arm/Packages
+ 7e2b256dda5b6fd8b4d50b697a550e54 677 main/binary-iphoneos-arm/Packages.gz
+ c28ef86f461e67e13fed6ec63b99e365 130 main/binary-iphoneos-arm/Release
+SHA1:
+ b8237cc470286c6cd7170a7c58747f02a93a6914 1498 main/binary-iphoneos-arm/Packages
+ 60a3f2fb36333ba5a6b40929714ca48be8fc6af3 677 main/binary-iphoneos-arm/Packages.gz
+ 86511126e100182ea31bc13c59d0c56adb610dd0 130 main/binary-iphoneos-arm/Release
+SHA256:
+ b23263a4f9d1bc67f2f4701eb5894a0ea17c6a29459b8f985df7eab5c9759840 1498 main/binary-iphoneos-arm/Packages
+ bbb2f409ea98f107c45a7dcf8f89031bb73244bc7bd38da72833873ab183664d 677 main/binary-iphoneos-arm/Packages.gz
+ 96c0d76a0289bffd41395ff30806d493967bafab699bcc052c2ce3a2dcc022f7 130 main/binary-iphoneos-arm/Release

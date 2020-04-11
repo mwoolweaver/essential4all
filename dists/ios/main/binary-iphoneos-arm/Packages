@@ -1,0 +1,37 @@
+Package: essential
+Essential: yes
+Installed-Size: 0
+Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
+Architecture: iphoneos-arm
+Version: 0-2-1.13
+Pre-Depends: apt (>=1.8.2-3), cy+os.ios (>=10)
+Depends: ws.hbang.newterm2 (>=2.4), cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | science.xnu.substituted, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | com.ex.substitute
+Priority: required
+Section: System
+Filename: pool/main/e/essential/essential_0-2-1.13_iphoneos-arm.deb
+Size: 916
+SHA256: 4d6dc17cb3d7bc19a29e1e566d4a907e49b44d99a1e8cda9bba13507fd74fa75
+SHA1: 7fa7a63ee454f068bbe885ee171146ba99c9afec
+MD5sum: a0f158d9ae97b56cdd54304206b7d3d7
+Description: contains nothing, represents everything
+Name: Essential
+Depiction: https://mwoolweaver.github.io/essential4all/web/essential4all.html
+
+Package: essential4allSetup
+Essential: yes
+Installed-Size: 59
+Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
+Architecture: iphoneos-arm
+Version: 0-2-2.1
+Priority: required
+Section: System
+Filename: pool/main/e/essential4allSetup/essential4allSetup_0-2-2.1_iphoneos-arm.deb
+Size: 964
+SHA256: 490404ced23eb27fa8166965fd96f277d1483420a8cbea8e697c625c46027b03
+SHA1: 1cc4e47555fe3807e4f97ad00e58c587ac9a2c86
+MD5sum: 016cf81e7df92a3f4a3145019961fa3b
+Description: essential4all repo setup
+Pre-Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
+Name: essential4all repo setup
+Depiction: https://mwoolweaver.github.io/essential4all/web/setup.html
+

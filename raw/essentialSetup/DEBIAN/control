@@ -1,12 +1,12 @@
-Package: essential4allSetup
+Package: essentialRepoSetup
 Essential: yes
 Priority: required
 Section: System
 Installed-Size: 59
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Architecture: iphoneos-arm
-Version: 0-2-2.3
-Description: essential4all repo setup
+Version: 0-2-2.4
+Description: essential repo setup
 Pre-Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
-Name: essential4all repo setup
+Name: essential repo setup
 Depiction: https://mwoolweaver.github.io/essential4all/web/setup.html

@@ -1,7 +1,7 @@
 Package: essential
 Essential: yes
 Priority: required
-Section: Essential
+Section: essential
 Installed-Size: 0
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Architecture: iphoneos-arm

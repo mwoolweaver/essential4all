@@ -1,0 +1,4 @@
+if [[ $1 == install || $1 == upgrade ]]; then
+    apt update
+    return
+fi

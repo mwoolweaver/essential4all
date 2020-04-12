@@ -1,0 +1,44 @@
+#!/bin/bash
+# -- Comment out the following line if you just want a package list --
+#./package.sh
+# --
+
+git pull
+
+sleep 1
+echo Making deb
+
+dpkg-deb -b raw/essential debs
+sleep 1
+dpkg-deb -b raw/essentialSetup debs
+sleep 1
+git add debs/
+# -- Expect this to fail if they haven't been created --
+echo Removing Old Packages Files
+rm -r pack/*
+rm -r Packages
+rm -r Packages.bz2
+rm -r Packages.gz
+# --
+sleep 1
+# -- Will scan the current directory and all sub directories for .deb files --
+./getPack
+# -- Also will require installing 'dpkg-scanpackages' via homebrew if on macOS/OS X --
+sleep 1
+# -- Provide both Bzip2 and gzip --
+# bzip2 -fks Packages # -- Cydia prefers Bzip2 but --
+# gzip -c Packages > Packages.gz # -- gzip is used as a fallback --
+# --
+sleep 1
+
+echo Adding Newly Generated Packages File to Git repo
+
+sleep 1
+
+echo commiting changes
+
+git commit -a -m "building new packages"
+
+sleep 1
+
+git push

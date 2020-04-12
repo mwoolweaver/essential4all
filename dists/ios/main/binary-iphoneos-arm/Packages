@@ -22,14 +22,14 @@ Essential: yes
 Installed-Size: 59
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Architecture: iphoneos-arm
-Version: 0-2-2.1
+Version: 0-2-2.2
 Priority: required
 Section: System
-Filename: pool/main/e/essential4allSetup/essential4allSetup_0-2-2.1_iphoneos-arm.deb
-Size: 964
-SHA256: 490404ced23eb27fa8166965fd96f277d1483420a8cbea8e697c625c46027b03
-SHA1: 1cc4e47555fe3807e4f97ad00e58c587ac9a2c86
-MD5sum: 016cf81e7df92a3f4a3145019961fa3b
+Filename: pool/main/e/essential4allSetup/essential4allSetup_0-2-2.2_iphoneos-arm.deb
+Size: 3132
+SHA256: 8fa2e71c21b463183d63148c6b270c23feaa979273e4cce4dce5325ecd6bcd79
+SHA1: 0ef7c7654ff67b20e6babcef7692d30c92b83950
+MD5sum: e8b4178404ffe25c34e0aaa6df92f5c3
 Description: essential4all repo setup
 Pre-Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
 Name: essential4all repo setup

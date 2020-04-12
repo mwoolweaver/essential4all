@@ -10,26 +10,42 @@ Priority: required
 Section: essential
 Filename: pool/main/e/essential/essential_0-2-2.5_iphoneos-arm.deb
 Size: 912
-SHA256: edcf94ede6260bfb1ddd909996c5e0326099e5b1c428de5b870027bee23c4cec
-SHA1: c552d170d18fc5a4d73d17de3ed10c55891a835a
-MD5sum: 34c78ea480e62f9c00e592c32fb44eb7
+SHA256: 5972ee39487486a9064a4d699697d7c5516e88532fa598e1d31768dd8fdb947e
+SHA1: 298bb2f67c7e656b3283700c5ee44acdee23f9a6
+MD5sum: 57054067080463658bce284647d7fd03
 Description: contains nothing, represents everything
 Name: essential4all
 Depiction: https://mwoolweaver.github.io/essential4all/web/essential4all.html
+
+Package: io.essential.masterrepo.list
+Name: masterrepo.list
+Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
+Version: 0-2.1
+Architecture: iphoneos-arm
+Priority: required
+Section: essential
+Filename: pool/main/i/io.essential.masterrepo.list/io.essential.masterrepo.list_0-2.1_iphoneos-arm.deb
+Size: 1960
+SHA256: b58be904c396e2adf580e5e3241863c792418d7bf182320c37c660e5481d92da
+SHA1: 9fd31b86cf1be4db010ce01799e7d72d7eed8cef
+MD5sum: f4f212ebd476e352c2440403423ccb8b
+Description: a collection of jailbreak repositories
+Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
+Author: @mwooIweaver <https://twitter.com/mwooIweaver>
 
 Package: io.essential.repo.setup
 Essential: yes
 Installed-Size: 59
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Architecture: iphoneos-arm
-Version: 0-2-2.5
+Version: 0-2-2.6
 Priority: required
 Section: essential
-Filename: pool/main/i/io.essential.repo.setup/io.essential.repo.setup_0-2-2.5_iphoneos-arm.deb
-Size: 3156
-SHA256: b3918027567317514f120d10e01cb92c74fe1355cf4b44d0f10ce728725ffbca
-SHA1: 5040201848849d66fe238deba79f88ec0d8b3ac7
-MD5sum: d6b76f0952bd93be3d66fec5cf5696f2
+Filename: pool/main/i/io.essential.repo.setup/io.essential.repo.setup_0-2-2.6_iphoneos-arm.deb
+Size: 3420
+SHA256: e9319ba6578ebe9b265b5faa1fa0a719cdc50c80c4da2cca14d65f284e18a037
+SHA1: 99a55189803b400dee9032da467c549ffe0fa65f
+MD5sum: 32314e9acbf79aa012a1b0b2668a9c75
 Description: repo setup
 Pre-Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
 Name: essential repo setup

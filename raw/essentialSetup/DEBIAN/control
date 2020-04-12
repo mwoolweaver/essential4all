@@ -1,4 +1,4 @@
-Package: essentialRepoSetup
+Package: io.essential.repo.setup
 Essential: yes
 Priority: required
 Section: System

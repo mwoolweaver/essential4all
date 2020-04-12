@@ -5,7 +5,7 @@ Section: System
 Installed-Size: 59
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Architecture: iphoneos-arm
-Version: 0-2-2.2
+Version: 0-2-2.3
 Description: essential4all repo setup
 Pre-Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
 Name: essential4all repo setup

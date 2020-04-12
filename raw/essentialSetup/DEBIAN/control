@@ -1,7 +1,7 @@
 Package: io.essential.repo.setup
 Essential: yes
 Priority: required
-Section: System
+Section: Essential
 Installed-Size: 59
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Architecture: iphoneos-arm

@@ -17,24 +17,6 @@ Description: contains nothing, represents everything
 Name: essential4all
 Depiction: https://mwoolweaver.github.io/essential4all/web/essential4all.html
 
-Package: essential4allSetup
-Essential: yes
-Installed-Size: 59
-Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
-Architecture: iphoneos-arm
-Version: 0-2-2.3
-Priority: required
-Section: System
-Filename: pool/main/e/essential4allSetup/essential4allSetup_0-2-2.3_iphoneos-arm.deb
-Size: 3156
-SHA256: 8a8d83f9da099cb5f9b326970cdb482d49a9d4789939c230ce48e98f07cba4f9
-SHA1: f26005f71c19a6aa1b9a7f76e12225cf2a5ad769
-MD5sum: 69eb6876d97bd8b23242e5b62f849925
-Description: essential4all repo setup
-Pre-Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
-Name: essential4all repo setup
-Depiction: https://mwoolweaver.github.io/essential4all/web/setup.html
-
 Package: io.essential.repo.setup
 Essential: yes
 Installed-Size: 59

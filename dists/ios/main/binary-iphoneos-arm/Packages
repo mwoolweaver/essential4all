@@ -3,18 +3,18 @@ Essential: yes
 Installed-Size: 0
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Architecture: iphoneos-arm
-Version: 0-2-1.13
+Version: 0-2-2.4
 Pre-Depends: apt (>=1.8.2-3), cy+os.ios (>=10)
 Depends: ws.hbang.newterm2 (>=2.4), cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | science.xnu.substituted, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | com.ex.substitute
 Priority: required
-Section: System
-Filename: pool/main/e/essential/essential_0-2-1.13_iphoneos-arm.deb
-Size: 916
-SHA256: 4d6dc17cb3d7bc19a29e1e566d4a907e49b44d99a1e8cda9bba13507fd74fa75
-SHA1: 7fa7a63ee454f068bbe885ee171146ba99c9afec
-MD5sum: a0f158d9ae97b56cdd54304206b7d3d7
+Section: essential
+Filename: pool/main/e/essential/essential_0-2-2.4_iphoneos-arm.deb
+Size: 912
+SHA256: 17b094e70383205ee31399d2888a375b41c26173d8a0269015039aea29fe3470
+SHA1: e101cda11d036d71024c8f45264a282c02e7e194
+MD5sum: a5d2b41db024c2a493b359b40bae551c
 Description: contains nothing, represents everything
-Name: Essential
+Name: essential4all
 Depiction: https://mwoolweaver.github.io/essential4all/web/essential4all.html
 
 Package: essential4allSetup
@@ -33,5 +33,23 @@ MD5sum: 69eb6876d97bd8b23242e5b62f849925
 Description: essential4all repo setup
 Pre-Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
 Name: essential4all repo setup
+Depiction: https://mwoolweaver.github.io/essential4all/web/setup.html
+
+Package: io.essential.repo.setup
+Essential: yes
+Installed-Size: 59
+Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
+Architecture: iphoneos-arm
+Version: 0-2-2.4
+Priority: required
+Section: essential
+Filename: pool/main/i/io.essential.repo.setup/io.essential.repo.setup_0-2-2.4_iphoneos-arm.deb
+Size: 3156
+SHA256: 13ee98306e1fbd2d376f8479226d0d6f8baa2873df96b3fa6d01be738eb817f3
+SHA1: e472423302ec32d26ba0a8eb8b22c5863847fac5
+MD5sum: 88a8869a579f40e07732ea8b1f7188aa
+Description: repo setup
+Pre-Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
+Name: essential repo setup
 Depiction: https://mwoolweaver.github.io/essential4all/web/setup.html
 

@@ -2,7 +2,7 @@
 # extrainst_
 # postrm
 
-## MasterRepo.list setup
+## essential repo setup
 
 function finish() {
 	f="${1}"

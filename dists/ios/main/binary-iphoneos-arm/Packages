@@ -20,15 +20,15 @@ Depiction: https://mwoolweaver.github.io/essential4all/web/essential4all.html
 Package: io.essential.masterrepo.list
 Name: masterrepo.list
 Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
-Version: 0-2.2
+Version: 0-2.3
 Architecture: iphoneos-arm
 Priority: required
 Section: essential
-Filename: pool/main/i/io.essential.masterrepo.list/io.essential.masterrepo.list_0-2.2_iphoneos-arm.deb
-Size: 1624
-SHA256: f716bc61400f5ee53cb41d8a0ad1775b3a9abc5281d8ba10f62d31f3588012b1
-SHA1: 090ead3f03b476f3fb116b0d9a7517114f488a39
-MD5sum: eae489fc603ce2dcb7ad8509dda0e9d2
+Filename: pool/main/i/io.essential.masterrepo.list/io.essential.masterrepo.list_0-2.3_iphoneos-arm.deb
+Size: 1604
+SHA256: 6b7a4ee64a6b8f633720ea7bd22b329af41c759fae3d098fc88fa51a3ac2d1be
+SHA1: 329337f303db86c8fa100957d0926c4616de8b5a
+MD5sum: f9e18d2529011fbc19476116f230ea9c
 Description: a collection of jailbreak repositories
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>

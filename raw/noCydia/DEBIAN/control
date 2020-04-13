@@ -1,11 +1,12 @@
 Package: io.essential.noCydia
 Name: noCydia
 Priority: required
-Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
+Depends: darwintools, debianutils, apt (>=1.8.2-3), sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
 Provides: cydia
-Version: 0-2.8
+Conflicts: cydia
+Version: 0-2.9
 Architecture: iphoneos-arm
-Description: installs files so APT will validate repository gpg w/o Cydia installed
+Description: installs files so APT will validate repository GPG w/o Cydia installed
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>
 Section: essential

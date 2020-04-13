@@ -5,7 +5,7 @@ Section: essential
 Installed-Size: 59
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Architecture: iphoneos-arm
-Version: 0-2-2.8
+Version: 0-2-2.9
 Description: installs files needed for a secure repo
-Pre-Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
+Pre-Depends: darwintools, debianutils, apt (>=1.8.2-3), sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz, cy+os.ios (>=10)
 Name: essential repo setup

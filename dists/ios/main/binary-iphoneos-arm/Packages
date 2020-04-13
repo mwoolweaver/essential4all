@@ -33,6 +33,22 @@ Description: a collection of jailbreak repositories
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>
 
+Package: io.essential.noCydia
+Name: noCydia
+Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
+Version: 0-2.3
+Architecture: iphoneos-arm
+Priority: required
+Section: essential
+Filename: pool/main/i/io.essential.noCydia/io.essential.noCydia_0-2.3_iphoneos-arm.deb
+Size: 9880
+SHA256: cbb52996c9123d2434d04721073ccac5c7d2de659b25e0e6e66964863a74db45
+SHA1: 1dad85c329ea908374c51f21ce96da6208f7ae29
+MD5sum: 7c85ed8d616dcc8fee5c64e7937ba756
+Description: installs file so APT will validate repository gpg w/o Cydia installed
+Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
+Author: @mwooIweaver <https://twitter.com/mwooIweaver>
+
 Package: io.essential.repo.setup
 Essential: yes
 Installed-Size: 59

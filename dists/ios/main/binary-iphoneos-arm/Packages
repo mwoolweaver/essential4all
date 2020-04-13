@@ -3,19 +3,18 @@ Essential: yes
 Installed-Size: 0
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Architecture: iphoneos-arm
-Version: 0-2-2.5
+Version: 0-2-2.8
 Pre-Depends: apt (>=1.8.2-3), cy+os.ios (>=10)
 Depends: ws.hbang.newterm2 (>=2.4), cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | science.xnu.substituted, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | com.ex.substitute
 Priority: required
 Section: essential
-Filename: pool/main/e/essential/essential_0-2-2.5_iphoneos-arm.deb
-Size: 912
-SHA256: 5972ee39487486a9064a4d699697d7c5516e88532fa598e1d31768dd8fdb947e
-SHA1: 298bb2f67c7e656b3283700c5ee44acdee23f9a6
-MD5sum: 57054067080463658bce284647d7fd03
+Filename: pool/main/e/essential/essential_0-2-2.8_iphoneos-arm.deb
+Size: 876
+SHA256: 43a11d7217ef1e91a1639882b4bc5c26d13d4ba7f4be61c3a0aa38ce927f0510
+SHA1: 5ca72b6895760ccc8bccfc3ae6aa6d596e0a9c90
+MD5sum: 1779755390b7acca4a72129210e80d96
 Description: contains nothing, represents everything
 Name: essential4all
-Depiction: https://mwoolweaver.github.io/essential4all/web/essential4all.html
 
 Package: io.essential.masterrepo.list
 Name: masterrepo.list
@@ -37,16 +36,16 @@ Package: io.essential.noCydia
 Name: noCydia
 Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
 Provides: cydia
-Version: 0-2.4
+Version: 0-2.8
 Architecture: iphoneos-arm
 Priority: required
 Section: essential
-Filename: pool/main/i/io.essential.noCydia/io.essential.noCydia_0-2.4_iphoneos-arm.deb
+Filename: pool/main/i/io.essential.noCydia/io.essential.noCydia_0-2.8_iphoneos-arm.deb
 Size: 9884
-SHA256: 16304c3889a8267c979a2e5b5b831a9e55c96951fcf1503ed1c5c77731fb761d
-SHA1: 4f946e1c15c81a9171ff7974cdee34785d92239a
-MD5sum: adb667cab4ec23b95e34b1089bfd9e71
-Description: installs file so APT will validate repository gpg w/o Cydia installed
+SHA256: 05b19df12fdc91c4c6edf3ecddf2128d68b7cbe80a0caf26348a76ecff20b62b
+SHA1: a1471737c3a484d8ea5d639b29ee796f1282b5db
+MD5sum: c009d5de79d25a8d6cd91dafe55bba51
+Description: installs files so APT will validate repository gpg w/o Cydia installed
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>
 
@@ -55,16 +54,15 @@ Essential: yes
 Installed-Size: 59
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Architecture: iphoneos-arm
-Version: 0-2-2.7
+Version: 0-2-2.8
 Priority: required
 Section: essential
-Filename: pool/main/i/io.essential.repo.setup/io.essential.repo.setup_0-2-2.7_iphoneos-arm.deb
-Size: 3412
-SHA256: 5b9f82250eda2122b6043449d3f442aa9581e9e54d6a0708e6c8c446f5e8fa31
-SHA1: 71169702aed72bca867041695343cd7036a137de
-MD5sum: e2f783558fb6d45bc6cd118a8fd6c311
-Description: repo setup
+Filename: pool/main/i/io.essential.repo.setup/io.essential.repo.setup_0-2-2.8_iphoneos-arm.deb
+Size: 3404
+SHA256: 3225e6c35739b83a8628caa1cc87a1e6191fc3a61bb441b8aa3ce1aabd6140bd
+SHA1: 4c42a9a57386292a58033c3ecccd67241f772a38
+MD5sum: 2b0896843f6eb55d9850f8010ec48cec
+Description: installs files needed for a secure repo
 Pre-Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
 Name: essential repo setup
-Depiction: https://mwoolweaver.github.io/essential4all/web/setup.html
 

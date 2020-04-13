@@ -36,15 +36,16 @@ Author: @mwooIweaver <https://twitter.com/mwooIweaver>
 Package: io.essential.noCydia
 Name: noCydia
 Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
-Version: 0-2.3
+Provides: cydia
+Version: 0-2.4
 Architecture: iphoneos-arm
 Priority: required
 Section: essential
-Filename: pool/main/i/io.essential.noCydia/io.essential.noCydia_0-2.3_iphoneos-arm.deb
-Size: 9880
-SHA256: cbb52996c9123d2434d04721073ccac5c7d2de659b25e0e6e66964863a74db45
-SHA1: 1dad85c329ea908374c51f21ce96da6208f7ae29
-MD5sum: 7c85ed8d616dcc8fee5c64e7937ba756
+Filename: pool/main/i/io.essential.noCydia/io.essential.noCydia_0-2.4_iphoneos-arm.deb
+Size: 9884
+SHA256: 16304c3889a8267c979a2e5b5b831a9e55c96951fcf1503ed1c5c77731fb761d
+SHA1: 4f946e1c15c81a9171ff7974cdee34785d92239a
+MD5sum: adb667cab4ec23b95e34b1089bfd9e71
 Description: installs file so APT will validate repository gpg w/o Cydia installed
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>

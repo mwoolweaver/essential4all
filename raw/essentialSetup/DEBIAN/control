@@ -5,8 +5,7 @@ Section: essential
 Installed-Size: 59
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Architecture: iphoneos-arm
-Version: 0-2-2.7
-Description: repo setup
+Version: 0-2-2.8
+Description: installs files needed for a secure repo
 Pre-Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
 Name: essential repo setup
-Depiction: https://mwoolweaver.github.io/essential4all/web/setup.html

@@ -1,0 +1,10 @@
+Package: io.essential.masterrepo.list
+Name: masterrepo.list
+Priority: required
+Depends: apt (>=1.8.2), sed (>=4.0), cy+os.ios (>=10)
+Version: 0-2.2
+Architecture: iphoneos-arm
+Description: a collection of jailbreak repositories
+Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
+Author: @mwooIweaver <https://twitter.com/mwooIweaver>
+Section: essential

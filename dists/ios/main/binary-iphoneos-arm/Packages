@@ -5,15 +5,15 @@ Architecture: iphoneos-arm
 Installed-Size: 0
 Pre-Depends: io.essential.repo.setup (>=0.3)
 Depends: io.essential.noCydia (>=0.3), cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | science.xnu.substituted, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | com.ex.substitute
-Provides: essential
+Provides: essential (= 0-3)
 Replaces: essential
 Priority: required
 Section: essential
 Filename: pool/main/e/essential.no.cydia/essential.no.cydia_0.3_iphoneos-arm.deb
-Size: 880
-SHA256: b42bedea085e246a0a020d78b4f0d888e537f17f7c30d3b0480aaffc2a626306
-SHA1: 683c7b01442c59190e13dcb29f32f3cc8c72299e
-MD5sum: 98ad84b4cdd11a15e6965580ca87ba76
+Size: 888
+SHA256: adcf4b221672cb605db8545f7fe0a89d2dd050f611f1049b32815e12c1ebadd1
+SHA1: aeb9fd48ab4f43cb50480a4b6ccaf8740be32486
+MD5sum: 29e42a77307a0725f6b13e6e1166dea6
 Description: contains nothing, represents everything
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>

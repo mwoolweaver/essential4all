@@ -1,19 +1,19 @@
 Package: essential.no.cydia
 Name: essential w/o Cydia
-Version: 0-3
+Version: 0.3
 Architecture: iphoneos-arm
 Installed-Size: 0
-Pre-Depends: io.essential.repo.setup (>=0-3)
-Depends: io.essential.noCydia (>=0-3), cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | science.xnu.substituted, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | com.ex.substitute
+Pre-Depends: io.essential.repo.setup (>=0.3)
+Depends: io.essential.noCydia (>=0.3), cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | science.xnu.substituted, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | com.ex.substitute
 Provides: essential
 Replaces: essential
 Priority: required
 Section: essential
-Filename: pool/main/e/essential.no.cydia/essential.no.cydia_0-3_iphoneos-arm.deb
-Size: 884
-SHA256: 67f48ec4263aa6c1d5936d83cbb7ab1418cdb7cfeea53d3718b1b5c932ac203e
-SHA1: ae362f73c82bb44246d542ad3de0ba228af13bb6
-MD5sum: e47386dd928a0641ac6bce02dc2d0c4f
+Filename: pool/main/e/essential.no.cydia/essential.no.cydia_0.3_iphoneos-arm.deb
+Size: 880
+SHA256: b42bedea085e246a0a020d78b4f0d888e537f17f7c30d3b0480aaffc2a626306
+SHA1: 683c7b01442c59190e13dcb29f32f3cc8c72299e
+MD5sum: 98ad84b4cdd11a15e6965580ca87ba76
 Description: contains nothing, represents everything
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>
@@ -36,38 +36,38 @@ Author: @mwooIweaver <https://twitter.com/mwooIweaver>
 
 Package: io.essential.nocydia
 Name: noCydia
-Version: 0-3
+Version: 0.3
 Architecture: iphoneos-arm
 Installed-Size: 9343
-Pre-Depends: io.essential.repo.setup (>=0-3)
-Depends: essential.nocydia (>=0-3), ws.hbang.newterm2 (>=2.4), darwintools, debianutils, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
+Pre-Depends: io.essential.repo.setup (>=0.3)
+Depends: essential.no.cydia (>=0.3), ws.hbang.newterm2 (>=2.4), darwintools, debianutils, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
 Provides: cydia
 Replaces: cydia
 Priority: required
 Section: essential
-Filename: pool/main/i/io.essential.nocydia/io.essential.nocydia_0-3_iphoneos-arm.deb
+Filename: pool/main/i/io.essential.nocydia/io.essential.nocydia_0.3_iphoneos-arm.deb
 Size: 10056
-SHA256: 13e96d9482ac15378841a7c9de7166cf9a219a4b6f7473fff2e85f00f094dd1e
-SHA1: d7f378a8ee69c69e79ab72cb2253a99d337085bd
-MD5sum: a3a74a1054eb53c7390f050d87da1a74
+SHA256: e7569f3cfe05639700a9e1805f19b94e0cab0a62ec196643c6bfa4198f400a69
+SHA1: 3e93e504672596c3c51a01db21a74d18122c94e7
+MD5sum: cbf383b616165dcb2d823bb233109026
 Description: Installs the files needed for APT to validate the GPG signiture of default repos w/o Cydia installed. Will also install NewTerm(iOS 10-13) to ensure can install packages.
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>
 
 Package: io.essential.repo.setup
 Name: essential repo setup
-Version: 0-3
+Version: 0.3
 Essential: yes
 Architecture: iphoneos-arm
 Installed-Size: 2565
 Pre-Depends: apt (>=1.8.2), dpkg (>=1.19.7), cy+os.ios (>=10)
 Priority: required
 Section: essential
-Filename: pool/main/i/io.essential.repo.setup/io.essential.repo.setup_0-3_iphoneos-arm.deb
+Filename: pool/main/i/io.essential.repo.setup/io.essential.repo.setup_0.3_iphoneos-arm.deb
 Size: 3412
-SHA256: d32c7ec3ef399100db057d4c95fa05e1c8b938ca06bdc709abdf4d341b0c2fbb
-SHA1: d5366392c687fa65c84894f1e9b9b076d6232c82
-MD5sum: 629056b7d1401ba62d140368faba395f
+SHA256: 6cb32b9e30f06963acb448e65aa490fe734c2392489edeaa08a4379d44ea5723
+SHA1: 94f6c48c489ae459213ff49bea67a1e1646ab306
+MD5sum: ea9aec2b4b937aeb2e3e33756dc13a0f
 Description: installs files needed for a secure repo
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>

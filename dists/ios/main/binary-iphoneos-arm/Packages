@@ -65,9 +65,9 @@ Priority: required
 Section: essential
 Filename: pool/main/i/io.essential.repo.setup/io.essential.repo.setup_0.3.1_iphoneos-arm.deb
 Size: 3420
-SHA256: d489799ce03d6113191b3003f819ead1a32a1b00ad93f0a0f6a4dfaaeb46e7f8
-SHA1: eb6f9a80c73148ed6ec3ea3af3614554c7413f3a
-MD5sum: 904d86b0056783950e0d2761a88637e6
+SHA256: 3bdaf1b5914ad18216124a5f8dc837e1b7db22f93fbfd99bc5cb3ad9d0d8a407
+SHA1: afb9575142073166c8831b0ddff776279597e618
+MD5sum: dcfa7007a1dfc64a1bda9f3bf7ad2a16
 Description: installs files needed for a secure repo
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>

@@ -1,6 +1,6 @@
 Name: essential repo setup
 Package: io.essential.repo.setup
-Version: 0.3
+Version: 0.3.1
 Section: essential
 Essential: yes
 Priority: required

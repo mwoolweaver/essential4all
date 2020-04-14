@@ -1,6 +1,6 @@
 Name: essential w/o Cydia
 Package: essential.no.cydia
-Version: 0.3.2
+Version: 0.3.3
 Section: essential
 Priority: required
 Architecture: iphoneos-arm

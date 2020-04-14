@@ -12,4 +12,3 @@ Replaces: cydia
 Description: Installs the files needed for APT to validate the GPG signiture of default repos w/o Cydia installed. Will also install NewTerm(iOS 10-13) to ensure can install packages.
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>
-

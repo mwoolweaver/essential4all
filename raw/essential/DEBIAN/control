@@ -1,12 +1,12 @@
 Name: essential w/o Cydia
 Package: essential.no.cydia
-Version: 0-3
+Version: 0.3
 Section: essential
 Priority: required
 Architecture: iphoneos-arm
 Installed-Size: 0
-Pre-Depends: io.essential.repo.setup (>=0-3)
-Depends: io.essential.noCydia (>=0-3), cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | science.xnu.substituted, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | com.ex.substitute
+Pre-Depends: io.essential.repo.setup (>=0.3)
+Depends: io.essential.noCydia (>=0.3), cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | science.xnu.substituted, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | com.ex.substitute
 Provides: essential
 Replaces: essential
 Description: contains nothing, represents everything

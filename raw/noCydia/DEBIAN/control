@@ -1,12 +1,12 @@
 Name: noCydia
 Package: io.essential.nocydia
-Version: 0-3
+Version: 0.3
 Section: essential
 Priority: required
 Architecture: iphoneos-arm
 Installed-Size: 9343
-Pre-Depends: io.essential.repo.setup (>=0-3)
-Depends: essential.nocydia (>=0-3), ws.hbang.newterm2 (>=2.4), darwintools, debianutils, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
+Pre-Depends: io.essential.repo.setup (>=0.3)
+Depends: essential.nocydia (>=0.3), ws.hbang.newterm2 (>=2.4), darwintools, debianutils, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
 Provides: cydia
 Replaces: cydia
 Description: Installs the files needed for APT to validate the GPG signiture of default repos w/o Cydia installed. Will also install NewTerm(iOS 10-13) to ensure can install packages.

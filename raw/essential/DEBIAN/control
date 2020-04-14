@@ -7,7 +7,7 @@ Architecture: iphoneos-arm
 Installed-Size: 0
 Pre-Depends: io.essential.repo.setup (>=0.3)
 Depends: io.essential.noCydia (>=0.3), cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | science.xnu.substituted, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | com.ex.substitute
-Provides: essential (>> 1.0)
+Provides: essential (= 0-3)
 Replaces: essential
 Description: contains nothing, represents everything
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>

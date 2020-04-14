@@ -1,19 +1,19 @@
 Package: essential.no.cydia
 Name: essential w/o Cydia
-Version: 0.3.3
+Version: 0.3.4
 Architecture: iphoneos-arm
 Installed-Size: 0
 Pre-Depends: io.essential.repo.setup (>=0.3)
 Depends: io.essential.noCydia (>=0.3), cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | science.xnu.substituted, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | com.ex.substitute
-Provides: essential (= 1.0)
+Provides: essential (= 0-2)
 Replaces: essential
 Priority: required
 Section: essential
-Filename: pool/main/e/essential.no.cydia/essential.no.cydia_0.3.3_iphoneos-arm.deb
+Filename: pool/main/e/essential.no.cydia/essential.no.cydia_0.3.4_iphoneos-arm.deb
 Size: 892
-SHA256: cf89b94ec71e9e838834596de24d6b72161c36028c5cdec2083fb48377dc7cde
-SHA1: a8effd520732f643542f9aa39c2132e16eacfdf5
-MD5sum: e2f7b4cbacfdb63376416bcfe884ef7e
+SHA256: ae7c3c1c05c67a8a114d66c464db11e55b90a8f6d05534b1640e7423a90e6bab
+SHA1: f52c0249223f3c272faf3c67bcc6beee6a31e91a
+MD5sum: 1a84ddd693a30c388308faa5939700e9
 Description: contains nothing, represents everything
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>

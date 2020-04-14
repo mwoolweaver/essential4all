@@ -1,11 +1,12 @@
+Name: essential repo setup
 Package: io.essential.repo.setup
+Version: 0-3
+Section: essential
 Essential: yes
 Priority: required
-Section: essential
-Installed-Size: 59
-Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Architecture: iphoneos-arm
-Version: 0-2-2.9
+Installed-Size: 2565
+Pre-Depends: apt (>=1.8.2), dpkg (>=1.19.7), cy+os.ios (>=10)
 Description: installs files needed for a secure repo
-Pre-Depends: darwintools, debianutils, apt (>=1.8.2-3), sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz, cy+os.ios (>=10)
-Name: essential repo setup
+Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
+Author: @mwooIweaver <https://twitter.com/mwooIweaver>

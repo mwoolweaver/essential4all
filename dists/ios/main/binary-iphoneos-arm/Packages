@@ -1,6 +1,6 @@
 Package: essential.no.cydia
 Name: essential w/o Cydia
-Version: 0.3
+Version: 0.3.1
 Architecture: iphoneos-arm
 Installed-Size: 0
 Pre-Depends: io.essential.repo.setup (>=0.3)
@@ -9,11 +9,11 @@ Provides: essential (= 0-3)
 Replaces: essential
 Priority: required
 Section: essential
-Filename: pool/main/e/essential.no.cydia/essential.no.cydia_0.3_iphoneos-arm.deb
-Size: 888
-SHA256: adcf4b221672cb605db8545f7fe0a89d2dd050f611f1049b32815e12c1ebadd1
-SHA1: aeb9fd48ab4f43cb50480a4b6ccaf8740be32486
-MD5sum: 29e42a77307a0725f6b13e6e1166dea6
+Filename: pool/main/e/essential.no.cydia/essential.no.cydia_0.3.1_iphoneos-arm.deb
+Size: 892
+SHA256: 739e489ebf649de9e83561f62e50a2b5d8b16ab4398c974910ae5a7578265038
+SHA1: 637835e872adc885913b1503e0a1f8779d4c1354
+MD5sum: 044158ad08f6f9cc93c4ec8fcc8739ae
 Description: contains nothing, represents everything
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>
@@ -27,9 +27,9 @@ Priority: required
 Section: essential
 Filename: pool/main/i/io.essential.masterrepo.list/io.essential.masterrepo.list_0-2.3_iphoneos-arm.deb
 Size: 1580
-SHA256: 4ffaa31fd158af2f31de21e5cc4c9e32bd486a9169f0fd78551c110efa48b52b
-SHA1: 806239e60ced5bc88f58ff234432c2ea927f8973
-MD5sum: 13e2a26437ff30bfde0d2d33edb6d8c1
+SHA256: 07ff6e3d5d5126624dad1194180a7b167815ba0086d25ea000862f7ec0136001
+SHA1: d3304e3ec21099b24d13cd1aefe86c621c696570
+MD5sum: 061e7f9f5d76a554d332121ffca5ebd0
 Description: a collection of jailbreak repositories
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>
@@ -47,9 +47,9 @@ Priority: required
 Section: essential
 Filename: pool/main/i/io.essential.nocydia/io.essential.nocydia_0.3_iphoneos-arm.deb
 Size: 10056
-SHA256: e7569f3cfe05639700a9e1805f19b94e0cab0a62ec196643c6bfa4198f400a69
-SHA1: 3e93e504672596c3c51a01db21a74d18122c94e7
-MD5sum: cbf383b616165dcb2d823bb233109026
+SHA256: ed9a64d1d4a508dd7f6f417dec47310bd6c0821333ac0b68e9cf764d744d060a
+SHA1: fe4464020efcfeea40b4fce6597644b8c5eadc37
+MD5sum: c75ae732150a476613a89468de79d8c6
 Description: Installs the files needed for APT to validate the GPG signiture of default repos w/o Cydia installed. Will also install NewTerm(iOS 10-13) to ensure can install packages.
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>
@@ -65,9 +65,9 @@ Priority: required
 Section: essential
 Filename: pool/main/i/io.essential.repo.setup/io.essential.repo.setup_0.3.1_iphoneos-arm.deb
 Size: 3420
-SHA256: de40444a024536b9a49ab58d9335a01f56f9b001b5434ccc63c755726045119a
-SHA1: 48967bcdb465b8c1b0625035625aaddcbe4cd2a9
-MD5sum: b4956895f8b69c2e7ef5ecb7577f4dc8
+SHA256: d489799ce03d6113191b3003f819ead1a32a1b00ad93f0a0f6a4dfaaeb46e7f8
+SHA1: eb6f9a80c73148ed6ec3ea3af3614554c7413f3a
+MD5sum: 904d86b0056783950e0d2761a88637e6
 Description: installs files needed for a secure repo
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>

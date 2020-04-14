@@ -1,12 +1,14 @@
-Package: essential
-Essential: yes
-Priority: required
+Name: essential w/o Cydia
+Package: essential.no.cydia
+Version: 0-3
 Section: essential
-Installed-Size: 0
-Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
+Priority: required
 Architecture: iphoneos-arm
-Version: 0-2-2.8
-Pre-Depends: apt (>=1.8.2-3), cy+os.ios (>=10)
-Depends: ws.hbang.newterm2 (>=2.4), cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | science.xnu.substituted, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | com.ex.substitute
+Installed-Size: 0
+Pre-Depends: io.essential.repo.setup (>=0-3)
+Depends: io.essential.noCydia (>=0-3), cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | science.xnu.substituted, cy+model.iphone (<< 11.0) | cy+model.ipad (<< 11.0) | cy+model.ipod | com.ex.substitute
+Provides: essential
+Replaces: essential
 Description: contains nothing, represents everything
-Name: essential4all
+Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
+Author: @mwooIweaver <https://twitter.com/mwooIweaver>

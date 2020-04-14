@@ -56,18 +56,18 @@ Author: @mwooIweaver <https://twitter.com/mwooIweaver>
 
 Package: io.essential.repo.setup
 Name: essential repo setup
-Version: 0.3
+Version: 0.3.1
 Essential: yes
 Architecture: iphoneos-arm
 Installed-Size: 2565
 Pre-Depends: apt (>=1.8.2), dpkg (>=1.19.7), cy+os.ios (>=10)
 Priority: required
 Section: essential
-Filename: pool/main/i/io.essential.repo.setup/io.essential.repo.setup_0.3_iphoneos-arm.deb
-Size: 3412
-SHA256: 6cb32b9e30f06963acb448e65aa490fe734c2392489edeaa08a4379d44ea5723
-SHA1: 94f6c48c489ae459213ff49bea67a1e1646ab306
-MD5sum: ea9aec2b4b937aeb2e3e33756dc13a0f
+Filename: pool/main/i/io.essential.repo.setup/io.essential.repo.setup_0.3.1_iphoneos-arm.deb
+Size: 3420
+SHA256: de40444a024536b9a49ab58d9335a01f56f9b001b5434ccc63c755726045119a
+SHA1: 48967bcdb465b8c1b0625035625aaddcbe4cd2a9
+MD5sum: b4956895f8b69c2e7ef5ecb7577f4dc8
 Description: installs files needed for a secure repo
 Maintainer: @mwooIweaver <https://twitter.com/mwooIweaver>
 Author: @mwooIweaver <https://twitter.com/mwooIweaver>

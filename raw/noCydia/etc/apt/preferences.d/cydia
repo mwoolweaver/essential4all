@@ -1,4 +1,4 @@
-Package: *
+Package: ^(?!essential).*$
 Pin: release o=Bingner/Elucubratus
 Pin-Priority: 1001
 
